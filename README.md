@@ -2,7 +2,7 @@
 Example project with React.js, TypeScript and Webpack
 =====================================================
 
-TypeScript 1.6 is still in beta but is supprots JSX so we are using it.
+TypeScript 1.6 is still in beta but it has JSX support so we are using it.
 
 It's tempting to use React.js 0.14 (which is also in beta)
 but type definitions only for 0.13 are available
@@ -32,9 +32,9 @@ Prerequisites
 Installation
 -----------
 
-  - `npm install` ­ fetch dependencies from npm
-  - `tsd update` ­ install type definitions for React.js
-  - `npm run buld` ­ build project into `./dist`
+  - `npm install` — fetch dependencies from npm
+  - `tsd update` — install type definitions for React.js
+  - `npm run buld` — build project into `./dist`
     + it runs `webpack -p` under the hood
-  - `npm run dev` ­ run development server on localhost:8080
+  - `npm run dev` — run development server on localhost:8080
     + `webpack-dev-server --content-base dist`
