@@ -1,0 +1,36 @@
+{
+  "name": "webpack-typescript-react",
+  "version": "1.0.0",
+  "description": "Example setup with Webpack, Typescript and React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "sleep 10",
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorpic/webpack-typescript-react"
+  },
+  "keywords": [
+    "webpcak",
+    "typescript",
+    "react",
+    "example"
+  ],
+  "author": "max taldykin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorpic/webpack-typescript-react/issues"
+  },
+  "homepage": "https://github.com/jorpic/webpack-typescript-react",
+  "devDependencies": {
+    "file-loader": "^0.8.4",
+    "ts-loader": "^0.5.0",
+    "typescript": "^1.6.0-dev.20150820",
+    "webpack": "^1.11.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
