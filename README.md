@@ -11,24 +11,27 @@ on [TSD](http://definitelytyped.org/tsd/) for now.
 
 Prerequisites
 -------------
-    - `npm install -g typescript@next`
-    - `npm install -g tsd`
-    - `npm install -g webpack`
-    - `npm install -g webpack-dev-server`
+
+  - `npm install -g typescript@next`
+  - `npm install -g tsd`
+  - `npm install -g webpack`
+  - `npm install -g webpack-dev-server`
 
 Insallation
 -----------
-    - `npm install` ­ fetch dependencies from npm
-    - `tsd update` ­ install type definitions for React.js
-    - `npm run buld` ­ build project into `./dist`
-        + it runs `webpack -p` under the hood
-    - `npm run dev` ­ run development server on localhost:8080
-        + `webpack-dev-server --content-base dist`
+
+  - `npm install` ­ fetch dependencies from npm
+  - `tsd update` ­ install type definitions for React.js
+  - `npm run buld` ­ build project into `./dist`
+    + it runs `webpack -p` under the hood
+  - `npm run dev` ­ run development server on localhost:8080
+    + `webpack-dev-server --content-base dist`
 
 
 TODO
 ----
-    - sass
-    - bourbon
-    - font awesome
-    - copy fonts and images
+
+  - sass
+  - bourbon
+  - font awesome
+  - copy fonts and images
