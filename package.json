@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "bourbon": "^4.2.3",
+    "font-awesome": "^4.4.0",
     "react": "^0.13.3"
   }
 }

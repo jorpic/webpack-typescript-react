@@ -15,7 +15,7 @@ Features
   - [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
   - [Sass](http://sass-lang.com)
   - [Bourbon](http://bourbon.io)
-  - TODO: font awesome
+  - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
   - TODO: hot reload
   - TODO: static resources (fonts/images)
   - non-inline styles

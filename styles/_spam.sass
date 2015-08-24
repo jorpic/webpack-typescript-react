@@ -1,5 +1,13 @@
 
-h1
-    color: blue
-h1:hover
-    color: tint(blue, 60%)
+body
+    +display(flex)
+    +justify-content(space-around)
+    +align-items(center)
+    height: 100vh
+
+.hello
+    +fa-icon()
+    &:before
+        content: $fa-var-fighter-jet
+        font-size: 50vh
+        color: #3DC3D0

@@ -1,7 +1,5 @@
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var bourbon = require('node-bourbon').includePaths;
-
 
 module.exports = {
     entry: './index.js',
@@ -24,6 +22,9 @@ module.exports = {
                 loader: ExtractTextPlugin.extract(
                     'css?sourceMap!sass?sourceMap&indentedSyntax'
                 )
+            },
+            {   test: /\.(ttf|eot|svg|woff2?)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                loader: "file-loader"
             }
         ]
     },
