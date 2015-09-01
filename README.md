@@ -35,7 +35,7 @@ Installation
 
   - `npm install` — fetch dependencies from npm
   - `tsd update` — install type definitions for React.js
-  - `npm run buld` — build project into `./dist`
+  - `npm run build` — build project into `./dist`
     + it runs `webpack -p` under the hood
   - `npm run dev` — run development server on localhost:8080
     + `webpack-dev-server --content-base dist`
