@@ -39,3 +39,9 @@ Installation
     + it runs `webpack -p` under the hood
   - `npm run dev` — run development server on localhost:8080
     + `webpack-dev-server --content-base dist`
+
+Other
+-----
+
+  - see [4c015e](https://github.com/jorpic/webpack-typescript-react/commit/4c015e82d9ff0fd629e301f3b70bbd8d13195d9b) for example
+    of how to use external package like [react-chartjs](https://github.com/jhudson8/react-chartjs)
