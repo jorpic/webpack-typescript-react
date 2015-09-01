@@ -24,7 +24,7 @@ module.exports = {
                 )
             },
             {   test: /\.(ttf|eot|svg|woff2?)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-                loader: "file-loader"
+                loader: "file-loader?name=fonts/[name].[ext]"
             }
         ]
     },

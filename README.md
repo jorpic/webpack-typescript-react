@@ -20,6 +20,7 @@ Features
   - TODO: static resources (fonts/images)
   - non-inline styles
   - source maps for ts and sass
+  - TODO: tslint, sass lint
 
 Prerequisites
 -------------
